@@ -1,15 +1,14 @@
-// My solution
+// other, shorter option
 
 var button = document.querySelector("button");
-var wall = document.querySelector("BODY");
 var wallColor = true;
 
 button.addEventListener("click", function() {
     // if (wall.style.backgroundcolor == white) {
     if (wallColor) {
-        wall.style.background = "purple";
+        document.body.style.background = "purple";
     } else {
-        wall.style.background = "white";
+        document.body.style.background = "white";
     }
     wallColor = !wallColor;
 });
